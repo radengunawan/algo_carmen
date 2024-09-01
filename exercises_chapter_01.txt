@@ -1,3 +1,5 @@
+
+1.1-1
 “Describe your own real-world example that requires sorting. Describe one that requires finding the shortest distance between two points.”
 
 Answer:
@@ -93,7 +95,7 @@ everyday life, highlighting their
  importance in organizing data
  and optimizing travel routes.
 
-*** END ***
+*** END of answer 1.1-1 ***
 
 1.1-2
 Other than speed, what other measures of efficiency might you need to consider in a 
@@ -165,40 +167,215 @@ distance isn't enough if the algorithm
 traffic conditions accurately.
 
 5. Reliability and Fault Tolerance
-- **Why It Matters:** Systems must continue functioning correctly even when parts fail
- or unexpected conditions arise. Ensuring reliability in algorithms is key for 
+- Why It Matters: 
+	Systems must continue functioning correctly 
+even when parts fail
+ or unexpected conditions arise. 
+Ensuring reliability in algorithms is key for 
 mission-critical systems.
-- **Example:** In distributed computing, algorithms must be resilient to network 
-failures, server crashes, or power outages. Techniques like redundancy and error correction are used to ensure continuous operation.
+- Example: In distributed computing, algorithms 
+must be resilient to network 
+failures, server crashes, or power outages. 
+Techniques like redundancy and error correction 
+are used to ensure continuous operation.
 
-### 6. **Ease of Implementation and Maintenance**
-- **Why It Matters:** An algorithm may be fast and efficient, but if it is complex to implement and maintain, the long-term costs could outweigh the benefits.
-- **Example:** A more straightforward, slightly less efficient sorting algorithm might be preferred over a complex one, especially in projects with tight deadlines or limited technical expertise.
+6. Ease of Implementation and Maintenance
+- Why It Matters: An algorithm may be fast and 
+efficient, but if it is complex to 
+implement and maintain, the long-term costs 
+could outweigh the benefits.
+- Example: A more straightforward, 
+slightly less efficient sorting algorithm 
+might be preferred over a complex one, 
+especially in projects with tight deadlines 
+or limited technical expertise.
 
-### 7. **Cost**
-- **Why It Matters:** Efficiency isn't just about technical performance but also about the financial resources required. Cost in terms of hardware, software licenses, or personnel can be a deciding factor.
-- **Example:** In cloud computing, an algorithm that requires significant processing power might lead to higher operational costs if it results in using more computing resources over time.
+ 7. Cost
+- Why It Matters: Efficiency isn't just about 
+technical performance but also about the 
+financial resources required. 
+Cost in terms of hardware, software 
+licenses, or personnel can be a 
+deciding factor.
+- Example: In cloud computing, an algorithm 
+that requires significant processing power 
+might lead to higher operational costs if it 
+results in using more computing 
+resources over time.
 
-### 8. **Throughput (Processing Capacity)**
-- **Why It Matters:** In systems that need to handle a high volume of tasks, such as a web server or transaction processing system, throughput is key. It refers to the number of operations or requests an algorithm can handle in a given time.
-- **Example:** A web server handling many simultaneous users must balance speed with throughput, as serving each request quickly but inefficiently could overload the system.
+8. Throughput (Processing Capacity)
+- Why It Matters: In systems that need to handle 
+a high volume of tasks, such as a web server 
+or transaction processing system, 
+throughput is key. 
+It refers to the number of operations or 
+requests an algorithm can handle in a 
+given time.
+- Example: A web server handling many 
+simultaneous users must balance speed with 
+throughput, as serving each request 
+quickly but inefficiently could 
+overload the system.
 
-### 9. **Fairness or Load Balancing**
-- **Why It Matters:** In some scenarios, efficiency also means distributing resources evenly. Overloading one part of a system while leaving another idle can lead to inefficiencies.
-- **Example:** In networking, algorithms like round-robin scheduling ensure that traffic is distributed evenly across servers to prevent one from being overburdened while others remain idle.
+9. Fairness or Load Balancing
+- Why It Matters: In some scenarios, efficiency 
+also means distributing resources evenly.
+ Overloading one part of a system while 
+leaving another idle can lead to 
+inefficiencies.
+- Example: In networking, algorithms like 
+round-robin scheduling ensure that traffic 
+is distributed evenly across servers to 
+prevent one from being overburdened 
+while others remain idle.
 
-### 10. **Latency**
-- **Why It Matters:** Latency is the time it takes to start producing a result. In real-time systems (e.g., video streaming, online gaming), minimizing latency is more important than the overall speed of processing.
-- **Example:** In live video streaming, reducing the delay from when an event happens to when the audience sees it is critical, even if the overall bandwidth is optimized.
+10. Latency
+- Why It Matters: Latency is the time it 
+takes to start producing a result. 
+In real-time systems (e.g., video streaming,
+ online gaming), minimizing latency is 
+more important than the overall speed 
+of processing.
+- Example: In live video streaming, 
+reducing the delay from when an event 
+happens to when the audience sees it is 
+critical, even if the overall bandwidth 
+is optimized.
 
-### 11. **Security**
-- **Why It Matters:** Some algorithms might be fast but vulnerable to attacks (e.g., sorting algorithms susceptible to denial of service attacks through specific input patterns). Secure algorithms can prevent malicious exploitation.
-- **Example:** In cryptographic algorithms, speed is important, but ensuring resistance to attacks like brute force or side-channel attacks is a higher priority.
+11. Security
+- Why It Matters: Some algorithms might be fast 
+but vulnerable to attacks 
+(e.g., sorting algorithms susceptible 
+to denial of service attacks through 
+specific input patterns). 
+Secure algorithms can prevent malicious 
+exploitation.
+- Example: In cryptographic algorithms, 
+speed is important, but ensuring resistance 
+to attacks like brute force or side-channel 
+attacks is a higher priority.
 
-### 12. **User Experience**
-- **Why It Matters:** Efficiency in terms of how users perceive a system is often overlooked. A technically fast system might still feel slow or unresponsive if the interface isn’t optimized for a smooth experience.
-- **Example:** A website could have optimized database queries, but if the user interface takes too long to load visual elements, it will still feel inefficient.
+12. User Experience
+- Why It Matters: Efficiency in terms of how 
+  users perceive a system is often overlooked. 
+  A technically fast system might still feel 
+slow or unresponsive if the interface isn’t 
+optimized for a smooth experience.
 
-Considering these different factors ensures that algorithms and systems are optimized not just for speed but for overall performance and sustainability in their real-world applications.
+- Example: A website could have optimized 
+database queries, but if the user interface 
+takes too long to load visual elements, 
+it will still feel inefficient.
+
+Considering these different factors ensures that 
+algorithms and systems are optimized 
+not just for speed but for overall performance 
+and sustainability in their real-world applications.
+
+*** END of answer 1.1-2 ***
+
+*** Problem 1.1-3 ***
+"Select a data structure that you have seen, 
+and discuss its strengths and limitations."
+
+Answer:
+Let's consider the binary search tree (BST) as an example 
+of a data structure. 
+This data structure is widely used for 
+organizing 
+and 
+accessing 
+data efficiently.
+
+Strengths of Binary Search Tree (BST):
+
+1. Efficient Searching, Insertion, and Deletion:
+   - In an average-case scenario, a BST allows for 
+	efficient searching, insertion, and deletion operations, 
+	all of which can be performed in O(log n) time, 
+	where \( n \) is the number of nodes in the tree.
+
+   - This efficiency comes from the BST property: for any node, 
+	all values in its left subtree are smaller, and all values 
+	in its right subtree are larger. 
+	This allows operations to "divide and conquer" the dataset.
+
+2. Dynamic Data Structure:
+   - Unlike arrays or linked lists, a BST doesn't require 
+	allocating memory ahead of time. It grows and shrinks as needed, 
+	which makes it flexible for managing dynamic datasets.
+
+3. In-order Traversal:
+   - Performing an in-order traversal of a BST will yield the 
+	elements in sorted order. 
+	This feature can be useful when you need to process elements 
+	in a specific sequence.
+
+4. Versatility:
+   - BSTs can be used to implement various other data structures like 
+	sets, maps, and priority queues, making them a versatile choice 
+	in software development.
+
+5. Balancing Variants:
+   - Variants of BSTs, such as AVL trees and Red-Black trees, 
+	maintain balance and ensure that operations remain efficient 
+	(O(log n) time complexity) 
+	even in the worst-case scenarios.
+
+Limitations of Binary Search Tree (BST):
+
+1. Imbalance:
+   - A major limitation of a basic BST is that it can become
+	 unbalanced, especially if the data is inserted in a sorted or 
+	nearly sorted order. 
+	In the worst case, it can degenerate into a linked list, 
+	resulting in O(n) time complexity for operations.
+
+2. Maintenance of Balance:
+   - Maintaining a perfectly balanced tree can be difficult
+	 without using self-balancing BST variants like AVL trees 
+	or Red-Black trees. 
+	These self-balancing trees introduce additional complexity 
+	in terms of rotations and rebalancing operations during 
+	insertions and deletions.
+
+3. Complexity of Self-Balancing:
+   - While self-balancing BSTs address the imbalance issue, 
+	they are more complex to implement and maintain compared 
+	to a basic BST. This complexity might not be justified for 
+	simpler applications where the dataset is 
+	small or rarely changes.
+
+4. Space Overhead:
+   - Each node in a BST typically requires additional 
+	pointers (to left and right children), which increases 
+	the space overhead compared to other data structures 
+	like arrays or simple linked lists, especially 
+	in cases with sparse trees.
+
+5. Difficulty with Duplicate Keys:
+   - BSTs traditionally do not handle duplicate keys 
+	well because of the strict ordering requirements. 
+	While there are ways to manage duplicates 
+	(e.g., allowing duplicates in either the l
+	eft or right subtree), it complicates 
+	the implementation.
+
+Conclusion:
+The binary search tree is a powerful and versatile data structure, 
+particularly effective for dynamic sets where efficient search, 
+insertion, and deletion operations are crucial. 
+However, its potential to become unbalanced and 
+the complexity of maintaining balance in large datasets can 
+be significant drawbacks. In practice, for situations 
+where the dataset is known to be relatively balanced or 
+where dynamic rebalancing is feasible, 
+BSTs are an excellent choice. 
+For cases where imbalance is likely, self-balancing variants 
+should be considered, albeit with the understanding 
+that they introduce additional complexity.
+
+*** END of answer 1.1-3 ***
+
 
 
